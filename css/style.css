@@ -50,7 +50,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(15vh, 1fr) minmax(20vh, 1fr) minmax(30vh, 2fr) auto auto;
+    grid-template-rows: minmax(15vh, 1fr) minmax(20vh, 1fr) minmax(20vh, 2fr) auto auto;
     grid-template-areas:
         "header"
         "about"
