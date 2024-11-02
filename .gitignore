@@ -1,0 +1,51 @@
+# Ignore node_modules if you have any dependencies for development (e.g., bundlers or linters)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SASS/SCSS Cache
+.sass-cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Environment files (sensitive data, if you use any environment variables)
+.env
+.env.local
+.env.*.local
+
+# Build or compiled files (if you have a build process, like Webpack or Gulp)
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# GitHub files
+.github/
+
+# Ignore coverage reports (if you add testing in the future)
+coverage/
+
+# Ignore compiled JavaScript files, if you're using TypeScript or transpiling
+*.js.map
+*.d.ts
+
+# Ignore Sentry sourcemaps (if using Sentry or similar services)
+*.map
