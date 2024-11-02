@@ -437,9 +437,7 @@ body {
 
 /* Larger screens */
 @media (min-width: 1024px) {
-    .container{
-        gap: 49rem;
-    }
+    
     .projects__grid {
         grid-template-columns: repeat(3, 1fr);
     }
