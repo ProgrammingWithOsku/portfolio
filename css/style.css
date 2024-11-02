@@ -50,7 +50,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(15vh, 1fr) minmax(20vh, 1fr) minmax(20vh, 2fr) minmax(20vh, 2fr) auto;
+    grid-template-rows: minmax(15vh, 1fr) minmax(20vh, 1fr) auto minmax(20vh, 2fr) auto;
     grid-template-areas:
         "header"
         "about"
@@ -226,27 +226,27 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     text-align: left;
-  }
-  
-  .project__card:hover {
+}
+
+.project__card:hover {
     transform: translateY(-5px);
-  }
-  
-  .project__title {
+}
+
+.project__title {
     font-size: 1.8rem;
     font-weight: var(--font-weight-bold);
     color: var(--color-primary);
     margin-bottom: 0.5rem;
-  }
-  
-  .project__description {
+}
+
+.project__description {
     font-size: 1.4rem;
     color: var(--color-text-dark);
     margin-bottom: 1rem;
-  }
-  
-  /* Button Styling */
-  .project__button {
+}
+
+/* Button Styling */
+.project__button {
     display: inline-block;
     padding: 0.8rem 1.5rem;
     font-size: 1.4rem;
@@ -256,24 +256,25 @@ body {
     border-radius: 0.3rem;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
-  
-  .project__button:hover {
-    background-color: #006bb3; /* Darker shade of highlight color */
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
+}
+
+.project__button:hover {
+    background-color: #006bb3;
+    /* Darker shade of highlight color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
     .projects__grid {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-  
+
     .project__button {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
-  }
-  
+}
+
 
 /* Responsive Layout for larger screens */
 @media (min-width: 768px) {
@@ -437,7 +438,7 @@ body {
 
 /* Larger screens */
 @media (min-width: 1024px) {
-    
+
     .projects__grid {
         grid-template-columns: repeat(3, 1fr);
     }
